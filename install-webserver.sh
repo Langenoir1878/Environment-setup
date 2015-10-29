@@ -9,7 +9,9 @@ sudo apt-get install -y apache2 git php5 php5-mysql php5-curl mysql-client curl
 sudo git clone https://github.com/Langenoir1878/Application-setup.git
 
 mv ./Application-setup/images /var/www/html/images
-mv ./Application-setup/index.html /var/www/html
+mv ./Application-setup/*.png /var/www/html
+mv ./Application-setup/*.js /var/www/html
+mv ./Application-setup/*.css /var/www/html
 mv ./Application-setup/*.php /var/www/html
 
 
