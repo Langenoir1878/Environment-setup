@@ -9,7 +9,8 @@ sudo apt-get install -y apache2 git
 git clone https://github.com/Langenoir1878/Environment-setup.git
 
 mv ./Environment-setup/images /var/www/html/images
-mv ./Environment-setup/index.html /var/www/html
+mv ./Application-setup/*.html /var/www/html
+mv ./Application-setup/*.png var/www/html
 mv ./Application-setup/images /var/www/html/images
 mv ./Application-setup/*.php /var/www/html
 
