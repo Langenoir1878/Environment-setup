@@ -14,6 +14,13 @@ mv ./Application-setup/*.js /var/www/html
 mv ./Application-setup/*.css /var/www/html
 mv ./Application-setup/*.php /var/www/html
 
+mv ./Application-setup/*.eot /var/www/html
+mv ./Application-setup/*.svg /var/www/html
+mv ./Application-setup/*.ttf /var/www/html
+mv ./Application-setup/*.woff /var/www/html
+mv ./Application-setup/*.woff2 /var/www/html
+
+
 
 curl -sS https://getcomposer.org/installer | sudo php &> /tmp/getcomposer.txt
 
